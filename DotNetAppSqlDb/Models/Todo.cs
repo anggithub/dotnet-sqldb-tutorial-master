@@ -8,6 +8,8 @@ namespace DotNetAppSqlDb.Models
         public int ID { get; set; }
         public string Description { get; set; }
 
+        public bool Done { get; set; } //angus added for test
+
         [Display(Name = "Created Date")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
